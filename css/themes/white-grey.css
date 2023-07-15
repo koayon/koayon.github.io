@@ -1,14 +1,29 @@
 /* Theme */
 
 main {
-	background: #EDEDED;
-	color: #4B5658;
+  background: #ededed;
+  color: #4b5658;
 }
 
 .icons-social a {
-	color: #4B5658;
+  color: #4b5658;
 }
 
-.icons-social a svg path{
-	fill: #4B5658;
+.icons-social a svg path {
+  fill: #4b5658;
+}
+
+.hat_cover {
+  /* background-color: red; */
+  background-image: url("https://gist.githubusercontent.com/koayon/c038a5eb0418d1cc596d067d5c5ee3c9/raw/af9307502050fc1bccdd5888d77a38adff001dbf/hat_aperiodic_tile.svg");
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.intro,
+.tagline,
+.icons-social a {
+  opacity: 1;
 }
